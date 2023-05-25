@@ -1,0 +1,574 @@
+.headphone-icon,
+.wageinsights-logo-icon {
+  position: relative;
+  width: 106px;
+  height: 29px;
+}
+.headphone-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.help {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-steelblue);
+  text-align: left;
+}
+.header,
+.help-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.help-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 78px;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid var(--color-gainsboro);
+  overflow: hidden;
+  padding: var(--padding-mini) var(--padding-61xl);
+  justify-content: space-between;
+}
+.progress-label,
+.title {
+  position: relative;
+}
+.progress-label {
+  display: inline-block;
+  width: 110.89px;
+}
+.input-replace-this {
+  border: 1px solid var(--color-lightgray);
+  background-color: var(--color-white);
+  position: relative;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  width: 318px;
+  height: 18px;
+}
+.progress-section {
+  width: 318px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-base);
+}
+.title-and-progress,
+.title-and-progress-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-and-progress {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-21xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.check-icon-green {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.step-label {
+  position: relative;
+}
+.step-1 {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.seperator-1-icon,
+.seperator-2-icon {
+  position: relative;
+  width: 48px;
+  height: 1px;
+  object-fit: cover;
+}
+.step-label2 {
+  position: relative;
+}
+.step-3 {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: center;
+}
+.step-label3 {
+  position: relative;
+  font-weight: 800;
+}
+.final-step {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: center;
+  color: var(--color-steelblue);
+}
+.stepper-section,
+.top-section {
+  align-self: stretch;
+  display: flex;
+}
+.stepper-section {
+  border-radius: 0 0 var(--br-9xs) var(--br-9xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-mini) 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+}
+.top-section {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pri-button-label {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+}
+.proceed-pri-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) 0;
+  background-color: var(--color-steelblue);
+  border-radius: var(--br-42xl);
+  width: 350px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button-section,
+.main-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.main-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-58xl);
+}
+.main-content-section,
+.survey-info-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content-section {
+  align-self: stretch;
+  padding: 0 var(--padding-61xl) var(--padding-81xl);
+  justify-content: center;
+}
+.survey-info-review {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1200px) {
+  .header,
+  .stepper-section,
+  .title-and-progress,
+  .top-section {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .button-section {
+    gap: var(--gap-0);
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .button-section,
+  .main-content-section {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .survey-info-review {
+    height: auto;
+  }
+}
+@media screen and (max-width: 834px) {
+  .headphone-icon,
+  .help-button {
+    height: 40px;
+  }
+  .header {
+    align-self: stretch;
+    width: auto;
+    height: 70px;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .title {
+    font-size: var(--font-size-xl);
+  }
+  .progress-label {
+    font-size: var(--font-size-sm);
+  }
+  .input-replace-this {
+    width: 204px;
+  }
+  .progress-section {
+    width: 204px;
+    height: auto;
+  }
+  .title-and-progress-content {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    gap: var(--gap-21xl);
+  }
+  .stepper-section {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .pri-button-label {
+    font-size: var(--font-size-sm);
+  }
+  .proceed-pri-button {
+    width: 222px;
+    padding-top: var(--padding-4xs);
+    padding-bottom: var(--padding-4xs);
+    box-sizing: border-box;
+  }
+  .button-section {
+    gap: var(--gap-41xl);
+  }
+  .main-content-section {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .survey-info-review {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 393px) {
+  .wageinsights-logo-icon {
+    width: 71px;
+    height: 19px;
+  }
+  .headphone-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .help {
+    font-size: var(--font-size-sm);
+  }
+  .help-button {
+    height: 30px;
+  }
+  .header {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .title {
+    font-size: var(--font-size-base);
+  }
+  .progress-label {
+    font-size: var(--font-size-xs);
+  }
+  .input-replace-this {
+    width: 100%;
+  }
+  .progress-section {
+    height: auto;
+    max-width: 100%;
+  }
+  .title-and-progress-content {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: var(--gap-base);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .title-and-progress {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .check-icon-green {
+    width: 20px;
+    height: 20px;
+  }
+  .step-label {
+    font-size: var(--font-size-xs);
+  }
+  .step-1 {
+    width: 55px;
+  }
+  .seperator-1-icon,
+  .seperator-2-icon {
+    width: 20px;
+  }
+  .step-label2 {
+    font-size: var(--font-size-xs);
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+  }
+  .step-3 {
+    width: 55px;
+  }
+  .step-label3 {
+    font-size: var(--font-size-xs);
+    align-self: stretch;
+    width: auto;
+  }
+  .final-step {
+    width: 55px;
+  }
+  .stepper-section {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .pri-button-label {
+    font-size: var(--font-size-sm);
+  }
+  .proceed-pri-button {
+    flex: 1;
+    height: auto;
+    padding-top: var(--padding-4xs);
+    padding-bottom: var(--padding-4xs);
+    box-sizing: border-box;
+  }
+  .button-section {
+    gap: var(--gap-xl);
+  }
+  .main-content-section {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .survey-info-review {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 350px) {
+  .help {
+    font-size: var(--font-size-sm);
+  }
+  .header {
+    align-self: stretch;
+    width: auto;
+    height: 65px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .title {
+    font-size: var(--font-size-base);
+  }
+  .progress-label {
+    font-size: var(--font-size-xs);
+  }
+  .title-and-progress {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .step-1 {
+    flex: 1;
+  }
+  .seperator-1-icon {
+    width: 30px;
+  }
+  .seperator-2-icon {
+    width: 30px;
+    height: 1px;
+  }
+  .step-label2 {
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+  }
+  .step-3 {
+    min-width: 55px;
+    max-width: 55px;
+  }
+  .step-label3 {
+    align-self: stretch;
+    width: auto;
+  }
+  .final-step {
+    flex: 1;
+    min-width: 55px;
+    max-width: 55px;
+  }
+  .stepper-section {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .stepper-section,
+  .top-section {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .proceed-pri-button {
+    flex: 1;
+  }
+  .button-section,
+  .main-content-section {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .button-section {
+    gap: var(--gap-3xs);
+  }
+  .main-content-section {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .survey-info-review {
+    height: auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .help {
+    font-size: var(--font-size-sm);
+  }
+  .header {
+    align-self: stretch;
+    width: auto;
+    height: 65px;
+    gap: var(--gap-0);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .title {
+    font-size: var(--font-size-xl);
+  }
+  .progress-label {
+    font-size: var(--font-size-sm);
+  }
+  .input-replace-this,
+  .progress-section {
+    width: 100%;
+  }
+  .title-and-progress-content {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .title-and-progress {
+    height: auto;
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .step-label3,
+  .title-and-progress {
+    align-self: stretch;
+    width: auto;
+  }
+  .stepper-section {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .stepper-section,
+  .top-section {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .pri-button-label {
+    font-size: var(--font-size-sm);
+  }
+  .proceed-pri-button {
+    width: 222px;
+    padding: var(--padding-4xs) var(--padding-base);
+    box-sizing: border-box;
+  }
+  .button-section,
+  .main-content-section {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .button-section {
+    gap: var(--gap-xl);
+  }
+  .main-content-section {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .survey-info-review {
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}
